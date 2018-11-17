@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zdmoney</groupId>
+		<artifactId>creditGateway</artifactId>
+		<version>1.0</version>
+	</parent>
+	<groupId>com.zdmoney.service-api</groupId>
+	<artifactId>creditGateway-service-api</artifactId>
+	<version>${creditGateway.service.api.version}</version>
+	<name>creditGateway-service-api</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.zdmoney.common</groupId>
+			<artifactId>creditGateway-common</artifactId>
+			<version>${creditGateway.common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zdmoney.domain</groupId>
+			<artifactId>creditGateway-domain</artifactId>
+			<version>${creditGateway.domain.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zdmoney.service</groupId>
+			<artifactId>creditGateway-service</artifactId>
+			<version>${creditGateway.service.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
